@@ -1,0 +1,504 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+
+@font-face {
+        font-family: 'Press Start 2P'; 
+        src: url('/page.html'); 
+      }
+
+body {
+  background-image: url(/img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+  }
+  
+.texto {
+  color: rgb(255, 255, 255);
+}
+  
+
+  .formulario-titulo {
+    color: white;
+  }
+  
+
+   
+  .wireframe-h3{
+    width: 510px;
+    height: 510px;
+    border: 4px solid violet;
+    margin: 20px auto;
+  }
+
+
+     
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+  
+      textarea {
+        width: 100%;
+        padding: 5px;
+      }
+      
+      textarea {
+        height: 100px;
+      }
+      
+      input[type="submit"] {
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #555;
+      }
+    
+      
+       .navbar .logo {
+        font-family: 'Press Start 2P', Arial, sans-serif; 
+       }
+     
+       .tamaño {
+        width: clamp(300px, calc(18.75rem + ((1rw-3.2px) * 8.9286)),400px);
+       }
+
+       form {
+        margin-top: 20px;
+        max-width: 400px;
+        margin: 50px;
+        padding: 20px;
+        border: 10px solid rgb(255, 255, 255);
+        border-radius: 5px;
+       }
+      
+      .ubicacion-h2 {
+      padding: 25px;
+      color: white;
+    }
+    
+    .formulario-titulo {
+      height: 25px;
+      padding: 72px;
+    }
+  
+    .contacto-h1 {
+      justify-content: center;
+      font-family: 'Handjet', cursive;
+      color: white;
+      font-size: 500px !important; 
+      text-align: center;
+      padding: 20px; 
+      border-bottom: 2px solid #ffffff;
+    }
+
+
+    .contenedor-formulario-mapa {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #333; 
+      padding: 25px;
+      border: 4px solid #686666; 
+      border-radius: 10px;
+      margin: 30px auto 0;
+      max-width: 800px;
+    }
+    
+    .ubicacion {
+      color: white;
+    }
+
+    .contenedor-formulario-mapa .map {
+      margin-top: 20px; 
+    }
+    
+    .contenedor-formulario-mapa iframe {
+      width: 100%;
+      height: 400px; 
+      border: none;
+    }
+    
+      .contact-container {
+        display: flex;
+        color: rgb(255, 255, 255);
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+      }
+    
+      .contact-form {
+        margin: 10px 0;
+      }
+    
+    
+
+      .productos-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .producto {
+        width: 30%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+      }
+      
+
+      .carousel-inner img {
+        max-height: 1500px; 
+      }
+
+      .contacto {
+        color: white;
+      }
+
+      .titulo-principal {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .titulo-principal h1 {
+        margin-bottom: 10px;
+    }
+    
+    .titulo-principal .linea {
+        width: 50px;
+        height: 3px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+     
+   .columna {
+          background-color: #4B0082;
+        color: white;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .columna-h2 {
+      margin-bottom: 10px;
+      width: 90%; 
+      margin-left: 10px;
+      margin-right: 15px;
+    }
+    
+    .linea-container-prici {
+        width: 80px;
+        height: 2px;
+        background-color: white;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+
+    .productos-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+      padding: 50px;
+    }
+
+   .fila {
+  display: flex;
+  flex-basis: calc(50% - 20px);
+  gap: 20px;
+}
+  
+.producto {
+  border: 1px solid #000;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  
+.producto-inner {
+  height: 100%;
+}
+  
+
+    .producto-inner img {
+      max-width: 100%;
+      height: auto;
+
+}
+
+.producto h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  white-space: normal; 
+}
+.producto p {
+  font-size: 1.4em;
+  color: #000000;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .fila {
+    flex-basis: 100%;
+  }
+}
+
+.producto {
+  width: 100%;
+}
+
+
+ 
+  .titulo-nosotros {
+    font-family: 'Handjet', cursive;
+    border-bottom: 2px solid #ffffff;
+  }
+
+  .text-container-nos {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto; 
+    margin-top: 200px; 
+    position: relative; 
+}
+  
+.linea-superior,
+.linea-inferior {
+    width: 70%;
+    height: 8px;
+    margin: 10px auto;
+    background-color: rgb(83, 4, 156);
+    border-radius: 10px;
+}
+
+
+
+  
+  .nosotros-text {
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 1.6rem;
+  }
+
+  .footer-nos {
+    margin-top: 200px;
+  } 
+
+  /* set ups */
+
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.titulo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.linea {
+  width: 100px;
+  height: 2px;
+  background-color: white;
+  margin: 10px 0;
+}
+
+.contenedor-cuadrados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+}
+
+
+.cuadrado {
+  width: 150px;
+  height: 150px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuadrado img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.texto-contenedor {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px; 
+  border: 2px solid black;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.texto {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.linea-superior,
+.linea-inferior {
+    width: 70%;
+    height: 8px;
+    margin: 10px auto;
+    background-color: rgb(83, 4, 156);
+    border-radius: 10px;
+}
+
+.fila {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.texto {
+  color: black;
+}
+
+/*formas de pago*/
+
+
+.formas-pago-container {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 50px auto 20px; 
+  max-width: 800px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+
+.formas-pago {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.forma-pago {
+  background-color: #222;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.forma-pago img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.forma-pago p {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .forma-pago {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .forma-pago img {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}
+
+.titulo-formas {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+
+.descuento-container {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 20px auto; 
+  max-width: 700px; 
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.descuento-texto {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+footer {
+  bottom: 0;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  margin-top: -60px; 
+}
+
+.footer-princi {
+margin-top: 40px;
+}
+
+.footer-contactos {
+margin-top: 100px;
+}
+
+.footer-formas-de-pago {
+  margin-top: 200px;
+}

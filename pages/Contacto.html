@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="icon" href="../img/Icono.png" type="image/png">
+  <link rel="stylesheet" href="/css/Style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap" rel="stylesheet">
+  <title>Contacta a nuestra empresa</title>
+
+
+</head>
+<body>
+<header>
+  <nav class="navbar bg-dark navbar-expand-lg navbar-light sticky-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <a class="logo" href="/Index.html">Fullhardware</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/Index.html">Inico</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/Ubicacion.html">Sus logros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/Nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/Formas-de-pago.html">formas de pago</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+ 
+<body>
+  <main> 
+
+
+ <div class="contacto-h1">
+    <h1>Contactanos</h1>
+ </div> 
+
+  
+ 
+
+
+    <br><hr><br>
+
+  <div class="contacto" data-aos="fade-right" >
+    <div class="ubicacion-h2">
+    <h2>Fullhardware</h2>
+    <p>Teléfono:11355654827</p>
+    <p>Email: Fullhardware@gmail.com</p>
+    <p>Dirección: Alto Avellaneda, Avellaneda, Argentina</p>
+    </div> 
+  </div>
+
+  <div class="contenedor-formulario-mapa" data-aos="zoom-out-up" >
+    <div class="contact-container">
+      <div class="formulario">
+        <h3>Formulario de Contacto:</h3>
+        <form action="enviar_formulario.php" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+    </div>
+    
+    <div class="ubicacion">
+      <h3>Ubicación:</h3>
+    </div>
+    
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13124.708681554988!2d-58.37453213906038!3d-34.67547770339853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33334248ec25d%3A0x438c219aee66c1bb!2sAlto%20Avellaneda%20Shopping!5e0!3m2!1ses-419!2sar!4v1686103132877!5m2!1ses-419!2sar" width="100%" height="400" style="border:2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  
+
+</main> 
+
+<div class="footer-contactos">
+<footer>
+  
+  <a href="https://www.instagram.com/sebaasilva_/#" target="_blank">
+    <img src="/img/instagram tp.jpeg" alt="Instagram" width="30" height="30">
+</a>
+
+<a href="tel:1135580392">
+     <img src="/img/whatsapp tp.jpg" alt="Teléfono" width="30" height="30">
+</a>
+
+ <a href="mailto:sebastiannicolassilva@gmail.com">
+    <img src="/img/mail tp.png" alt="Correo electrónico" width="30" height="30">
+  </a>
+</footer>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="/js/bootstrap.min.js"></script> 
+   <script>
+    AOS.init();
+  </script>
+</body>
+</html>
